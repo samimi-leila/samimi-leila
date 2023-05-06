@@ -1,0 +1,60 @@
+.myitem{
+    background-color: aquamarine; 
+    color: black;
+    font: size 10px;
+     margin: 5px; 
+    padding: 20px;
+}
+.mybox{border: 1px solid rgb(51, 41, 41) ;
+    padding: 50px; overflow: auto;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    }
+    *{box-sizing: border-box;}
+    .myimage{float: left;margin: 10px;}
+    .myimage image{border: 50px; width: 50px;;
+    }
+    .tex-1{color: black; clear: right;}
+    .mybox::after{
+        content: yoga;
+        clear: both;
+        display: table;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ddc9c9;}
+      li {
+        float: right;
+      }
+      li a {
+        display: block;
+        color: rgb(5, 0, 0);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration:none;
+        }
+      li a:hover {
+        background-color: #f36363}
+      div.myimage {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 250px;
+          }
+          div.myimage:hover {
+            border: 1px solid #777;
+          }
+          
+          div.myimage img {
+            width: 100%;
+            height: auto;
+          }
+          
+          div.test {
+            padding: 15px;
+            text-align: center;
+          }
